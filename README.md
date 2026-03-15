@@ -8,3 +8,4 @@ Steps taken to develop the repo
 4. Connected local repo to GitHub remote and pushed branch
 5. Set up Python virtual environment (`venv/`) and installed `duckdb`
 6. Wrote `load.py` to ingest all NDJSON files from the source data folder into a local DuckDB database (`novellia.duckdb`), one table per FHIR resource type
+7. Initialized a dbt project (`novellia/`) using the `dbt-duckdb` adapter and configured `~/.dbt/profiles.yml` to point at the local DuckDB database
