@@ -9,3 +9,4 @@ Steps taken to develop the repo
 5. Set up Python virtual environment (`venv/`) and installed `duckdb`
 6. Wrote `load.py` to ingest all NDJSON files from the source data folder into a local DuckDB database (`novellia.duckdb`), one table per FHIR resource type
 7. Initialized a dbt project (`novellia/`) using the `dbt-duckdb` adapter and configured `~/.dbt/profiles.yml` to point at the local DuckDB database
+8. Created `models/staging/sources.yml` declaring all 15 raw FHIR tables as dbt sources, enabling staging models to reference them via `{{ source('fhir', '<table>') }}`
