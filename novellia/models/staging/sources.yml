@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: fhir
+    description: Raw FHIR resources loaded from NDJSON files into DuckDB
+    schema: main
+    tables:
+      - name: allergyintolerance
+      - name: condition
+      - name: device
+      - name: diagnosticreport
+      - name: documentreference
+      - name: encounter
+      - name: immunization
+      - name: location
+      - name: medicationrequest
+      - name: observation
+      - name: organization
+      - name: patient
+      - name: practitioner
+      - name: practitionerrole
+      - name: procedure

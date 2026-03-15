@@ -1,0 +1,31 @@
+[0m00:44:37.403599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1066916a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a532e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a53610>]}
+
+
+============================== 00:44:37.406799 | d18a3011-9141-42f5-9bc9-4c99d25ccd9c ==============================
+[0m00:44:37.406799 [info ] [MainThread]: Running with dbt=1.10.20
+[0m00:44:37.407212 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'debug': 'False', 'invocation_command': 'dbt init novellia', 'write_json': 'True', 'introspect': 'True', 'quiet': 'False', 'profiles_dir': '/Users/mohammedalirizvi/.dbt', 'log_format': 'default', 'partial_parse': 'True', 'printer_width': '80', 'no_print': 'None', 'version_check': 'True', 'indirect_selection': 'eager', 'log_path': 'logs', 'warn_error': 'None', 'use_colors': 'True', 'empty': 'None', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'target_path': 'None', 'fail_fast': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True'}
+[0m00:44:37.415491 [info ] [MainThread]: Creating dbt configuration folder at /Users/mohammedalirizvi/.dbt
+[0m00:44:37.416827 [debug] [MainThread]: Starter project path: /Users/mohammedalirizvi/Desktop/Novellia/novellia-analytics-engineering/venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m00:44:37.422863 [info ] [MainThread]: 
+Your new dbt project "novellia" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:44:37.423189 [info ] [MainThread]: Setting up your profile.
+[0m00:44:44.335557 [info ] [MainThread]: Profile novellia written to /Users/mohammedalirizvi/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m00:44:44.337021 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 6.98016, "process_in_blocks": "0", "process_kernel_time": 0.140845, "process_mem_max_rss": "113999872", "process_out_blocks": "0", "process_user_time": 0.751225}
+[0m00:44:44.337326 [debug] [MainThread]: Command `dbt init` succeeded at 00:44:44.337267 after 6.98 seconds
+[0m00:44:44.337591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1066916a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ae9d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a53d30>]}
+[0m00:44:44.337821 [debug] [MainThread]: Flushing usage events
+[0m00:44:44.536937 [debug] [MainThread]: An error was encountered while trying to flush usage events
