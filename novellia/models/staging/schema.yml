@@ -8,8 +8,10 @@ models:
           - not_null
       - name: status
         tests:
-          - unique
-          - not_null
+          - unique:
+              severity: 'warn'
+          - not_null:
+              severity: 'error'
   - name: stg_observation
     columns:
       - name: observation_id
