@@ -5,8 +5,9 @@ Novellia Analytics Engineering Assignment
 1. Clone the repo
 2. Download the large sample file of data "sample-bulk-fhir-datasets-1000-patients' from [here](https://github.com/smart-on-fhir/sample-bulk-fhir-datasets/archive/refs/heads/1000-patients.zip).
 3. Extract its contents into sample-bulk-fhir-datasets-1000-patients/
-4. Run load.py
-5. Run the necessary Jupyter notebooks to see analysis work. Each Jupyter notebook's kernel needs to be restarted/interrupted if you want to run a different notebook.
+4. Install/run dependencies
+5. Run load.py
+6. Run the necessary Jupyter notebooks to see analysis work. Each Jupyter notebook's kernel needs to be restarted/interrupted if you want to run a different notebook.
 
 **Steps taken to develop the repo**
 1. Download files from the assignment and upload to repo for reader context
