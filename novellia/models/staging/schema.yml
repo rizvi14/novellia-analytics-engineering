@@ -1,0 +1,32 @@
+version: 2
+models:
+  - name: stg_diagnosticreport
+    columns:
+      - name: diagnostic_report_id
+        tests:
+          - unique
+          - not_null
+      - name: status
+        tests:
+          - unique:
+              severity: 'warn'
+          - not_null:
+              severity: 'error'
+  - name: stg_observation
+    columns:
+      - name: observation_id
+        tests:
+          - unique
+          - not_null
+  - name: stg_immunization
+    columns:
+      - name: immunization_id
+        tests:
+          - unique
+          - not_null
+  - name: stg_patient
+    columns:
+      - name: patient_id
+        tests:
+          - unique
+          - not_null
