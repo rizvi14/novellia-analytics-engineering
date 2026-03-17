@@ -1,0 +1,6 @@
+novellia:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../novellia.duckdb
