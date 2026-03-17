@@ -5,9 +5,10 @@ Novellia Analytics Engineering Assignment
 1. Clone the repo
 2. Download the large sample file of data "sample-bulk-fhir-datasets-1000-patients' from [here](https://github.com/smart-on-fhir/sample-bulk-fhir-datasets/archive/refs/heads/1000-patients.zip).
 3. Extract the contents of the zip into sample-bulk-fhir-datasets-1000-patients/
-4. Create and activate a virtual environment by running the following in Terminal: `python3 -m venv venv source venv/bin/activate`
+4. Create and activate a virtual environment by running the following in Terminal: `python3 -m venv venv  `
+`source venv/bin/activate`. Then install dependencies via `pip install -r requirements.txt`.
 5. Run load.py in Terminal: `python 3 load.py`.
-6. Configure `~/.dbt/profiles.yml` to point to the local `novellia.duckdb` file.
+6. Configure `~/.dbt/profiles.yml` to point to the local `novellia.duckdb` file. Sample file located at `profiles.yml`
 7. Run/build the dbt models while in the novellia/ dbt project folder. Run: `cd novellia` to get to the right directory. Then run `dbt build --select staging`.
 8. Run the necessary Jupyter notebooks to see analysis work. Each Jupyter notebook's kernel needs to be restarted/interrupted if you want to run a different notebook.
 
