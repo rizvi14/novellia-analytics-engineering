@@ -1,4 +1,5 @@
 # Analytics Engineering Assignment
+[Loom Overview URL](https://www.loom.com/share/39fdfae3a99a4df89e791f3c878322b7)
 
 ## Approach
 - Upon examining the goal of the exercise, my approach was to use the largest file so that I had sufficient sample data to glean insights from.
@@ -13,7 +14,7 @@
 - Since only one of the questions necessitated a JOIN, I opted to not create any ***final*** analytical tables because the answers I needed were already available from the data in stg tables.
 
 ## Assumptions
-- I assumed that the columns I generated in my stg models were the appropriate, primary reference columns for patient data.
+- I assumed that the columns I generated in my stg models were the appropriate, primary reference columns for patient data. I am also assuming that the script for DuckDB to dbt model is flattening the data properly/without errors.
 - I assumed that I only needed 4 source tables based on the types of questions in the assignment. I then identified those resource types independently.
 - I assumed that the non_null and unique primary key tests were the only critical dbt tests to write on these tables.
 - I assumed in my answer for "most common vaccine" the # of unique patients instead of the # of immunizations given.
