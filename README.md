@@ -1,5 +1,5 @@
 # novellia-analytics-engineering
-Novellia Analytics Engineering Assignment
+Novellia Analytics Engineering Assignment. You do not necessarily need to clone the repo, you can view the results of my answers to the assignment by hitting **Preview** in GitHub on the analysis01/02/03.ipynb files.
 
 **Instructions to run this assignment**
 1. Clone the repo
