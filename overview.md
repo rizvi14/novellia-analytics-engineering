@@ -16,8 +16,12 @@
 - I assumed that the columns I generated in my stg models were the appropriate, primary reference columns for patient data.
 - I assumed that I only needed 4 source tables based on the types of questions in the assignment. I then identified those resource types independently.
 - I assumed that the non_null and unique primary key tests were the only critical dbt tests to write on these tables.
+- I assumed in my answer for "most common vaccine" the # of unique patients instead of the # of immunizations given.
 
 ## Tradeoffs
 - I didn't opt for a "direct on file" querying method because I wanted to gain the experience of deploying / virtualizing a DB. This also gave me increased clarity and formal separation between each of the steps.
 - I ***prefer*** working in Deepnote for open source notebook-based analyses, but it would have required setting up all the data in the Deepnote environment since it doesn't have a native DuckDB integration.
 - I remained at the staging layer in dbt since the questions in the analysis didn't necessitate the need for any big pre-aggregations.
+
+## Handling every possible FHIR resource
+- If every possible resource type (like all 15, in this example) needed to be modeled, I would add another layer of validation to ensure that data is being ingested properly and in a timely manner. For example, I might use a combined key in my validation tests, or I might say that a table is not yet complete unless all of its attributes can also be found in other dimension/reference tables.
