@@ -1,6 +1,8 @@
 # novellia-analytics-engineering
 Novellia Analytics Engineering Assignment. You do not necessarily need to clone the repo, you can view the results of my answers to the assignment by hitting **Preview** in GitHub on the analysis01/02/03.ipynb files.
 
+Read the overview.md file for a summarized explanation of my approach/decisions/tradeoffs/etc.
+
 **Instructions to run this assignment**
 1. Clone the repo
 2. Download the large sample file of data "sample-bulk-fhir-datasets-1000-patients' from [here](https://github.com/smart-on-fhir/sample-bulk-fhir-datasets/archive/refs/heads/1000-patients.zip) into the repo root folder.
