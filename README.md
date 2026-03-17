@@ -1,7 +1,7 @@
 # novellia-analytics-engineering
 Novellia Analytics Engineering Assignment. You do not necessarily need to clone the repo, you can view the results of my answers to the assignment by hitting **Preview** in GitHub on the analysis01/02/03.ipynb files.
 
-Read the overview.md file for a summarized explanation of my approach/decisions/tradeoffs/etc.
+Read the [overview.md](https://github.com/rizvi14/novellia-analytics-engineering/blob/main/overview.md) file for a summarized explanation of my approach/decisions/tradeoffs/etc.
 
 **Instructions to run this assignment**
 1. Clone the repo
